@@ -11,6 +11,9 @@
 		1871C0972C74E52A005AD946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871C0962C74E52A005AD946 /* ContentView.swift */; };
 		1871C0992C74E52D005AD946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1871C0982C74E52D005AD946 /* Assets.xcassets */; };
 		1871C09C2C74E52D005AD946 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1871C09B2C74E52D005AD946 /* Preview Assets.xcassets */; };
+		1871C0A32C74E545005AD946 /* APODModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871C0A22C74E545005AD946 /* APODModel.swift */; };
+		1871C0A52C74E568005AD946 /* APODViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871C0A42C74E567005AD946 /* APODViewModel.swift */; };
+		1871C0A72C74E594005AD946 /* APODView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871C0A62C74E594005AD946 /* APODView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		1871C0962C74E52A005AD946 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1871C0982C74E52D005AD946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1871C09B2C74E52D005AD946 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1871C0A22C74E545005AD946 /* APODModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODModel.swift; sourceTree = "<group>"; };
+		1871C0A42C74E567005AD946 /* APODViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewModel.swift; sourceTree = "<group>"; };
+		1871C0A62C74E594005AD946 /* APODView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				1871C0942C74E52A005AD946 /* APODAppApp.swift */,
 				1871C0962C74E52A005AD946 /* ContentView.swift */,
+				1871C0AA2C74E87C005AD946 /* Model */,
+				1871C0A92C74E86D005AD946 /* ViewModel */,
+				1871C0A82C74E861005AD946 /* View */,
 				1871C0982C74E52D005AD946 /* Assets.xcassets */,
 				1871C09A2C74E52D005AD946 /* Preview Content */,
 			);
@@ -65,6 +74,30 @@
 				1871C09B2C74E52D005AD946 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1871C0A82C74E861005AD946 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1871C0A62C74E594005AD946 /* APODView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1871C0A92C74E86D005AD946 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1871C0A42C74E567005AD946 /* APODViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1871C0AA2C74E87C005AD946 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1871C0A22C74E545005AD946 /* APODModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1871C0A72C74E594005AD946 /* APODView.swift in Sources */,
 				1871C0972C74E52A005AD946 /* ContentView.swift in Sources */,
 				1871C0952C74E52A005AD946 /* APODAppApp.swift in Sources */,
+				1871C0A52C74E568005AD946 /* APODViewModel.swift in Sources */,
+				1871C0A32C74E545005AD946 /* APODModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
